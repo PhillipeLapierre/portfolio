@@ -1,3 +1,41 @@
 /* ==========================================================================
    header / component
    ========================================================================== */
+
+header {
+    background-color: #343333;
+
+    color: white;
+
+    border-bottom: 2px;
+    border: white;
+
+    h1 {
+        font-family: var(--font-primary);
+        font-size: 36px;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul {
+        font-family: var(--font-tertiary);
+        list-style-type: none;
+
+        display: flex;
+
+        li {
+            margin: 5px 15px;
+        }
+    }
+
+    .nav-active li {
+        color: var(--color-primary);
+    }
+    .nav-active img {
+        position: absolute;
+    }
+}
