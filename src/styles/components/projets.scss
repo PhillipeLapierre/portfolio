@@ -1,0 +1,82 @@
+.projets {
+    .wrapper {
+        padding: 100px 0;
+    }
+
+    .projet-container {
+        background-color: rgba(black, 0.4);
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        padding: 40px;
+        border-radius: 30px;
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 32px;
+            text-align: center;
+        }
+        p {
+            font-family: var(--font-tertiary);
+            font-weight: 400;
+        }
+    }
+
+    .thumbnail {
+        width: 50%;
+    }
+
+    .projet-gauche,
+    .projet-droite {
+        display: flex;
+
+        background-color: #00779c;
+
+        margin: 20px 0;
+
+        position: relative;
+
+        width: 100%;
+    }
+
+    .projet-gauche .logiciel,
+    .projet-droite .logiciel {
+        position: absolute;
+
+        bottom: 0;
+
+        width: 121px;
+        height: 97px;
+
+        background-color: rgba(black, 0.3);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projet-gauche .logiciel {
+        right: 0;
+
+        border-top-left-radius: 20px;
+    }
+    .projet-droite .logiciel {
+        left: 0;
+
+        border-top-right-radius: 20px;
+    }
+
+    .projet-texte {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        padding: 30px;
+    }
+}

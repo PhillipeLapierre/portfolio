@@ -4,6 +4,7 @@
 
 .wrapper {
     max-width: $breakpoint-md;
-    width: calc(100% - var(--spacing-md));
+    width: 1482px;
+    max-width: 90%;
     margin: 0 auto;
 }
