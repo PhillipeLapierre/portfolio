@@ -8,14 +8,83 @@ section {
 }
 
 .demo {
-    height: 100vh;
+    height: calc(100vh - 75px);
 
     .wrapper {
-        height: 90%;
+        height: calc(100vh - 75px);
+
+        padding: 3% 0 5%;
 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+}
+
+.bouton {
+    font-family: var(--font-tertiary);
+    font-weight: 100;
+
+    font-size: 36px;
+
+    background: radial-gradient(
+                circle at 100% 100%,
+                #000000 0,
+                #000000 5px,
+                transparent 5px
+            )
+            0% 0%/9px 9px no-repeat,
+        radial-gradient(
+                circle at 0 100%,
+                #000000 0,
+                #000000 5px,
+                transparent 5px
+            )
+            100% 0%/9px 9px no-repeat,
+        radial-gradient(
+                circle at 100% 0,
+                #000000 0,
+                #000000 5px,
+                transparent 5px
+            )
+            0% 100%/9px 9px no-repeat,
+        radial-gradient(circle at 0 0, #000000 0, #000000 5px, transparent 5px)
+            100% 100%/9px 9px no-repeat,
+        linear-gradient(#000000, #000000) 50% 50% / calc(100% - 8px)
+            calc(100% - 18px) no-repeat,
+        linear-gradient(#000000, #000000) 50% 50% / calc(100% - 18px)
+            calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #ffa959 0%, #78e7ff 100%);
+
+    border-radius: 9px;
+    padding: 15px 60px;
+    box-sizing: border-box;
+}
+
+.role {
+    display: flex;
+    align-items: center;
+    text-align: end;
+
+    background-image: url(/assets/images/color-square.png);
+
+    width: 317px;
+    height: 83px;
+
+    padding: 15px 32px 0;
+
+    h1 {
+        font-weight: 700;
+
+        font-size: 68px;
+
+        height: 55px;
+        padding-left: 7px;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 28px;
     }
 }
