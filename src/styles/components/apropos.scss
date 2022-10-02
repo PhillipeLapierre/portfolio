@@ -1,0 +1,79 @@
+.apropos {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 80px 0;
+    }
+
+    .role {
+        background-image: url(/assets/images/color-square2.png);
+    }
+
+    .apropos-gauche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 60%;
+
+        margin-right: 40px;
+
+        h2 {
+            font-size: 25px;
+        }
+        .description {
+            font-family: var(--font-secondary);
+            font-size: 20px;
+        }
+        span {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+        .grid1 p, .grid2 p {
+            font-family: var(--font-tertiary);
+        }
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .grid2 {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .apropos-droite {
+        h2 {
+            font-size: 30px;
+            text-align: center;
+
+            margin-top: 30px;
+        }
+        p {
+            font-family: var(--font-tertiary);
+        }
+
+        .outils {
+            display: flex;
+            justify-content: space-between;
+            
+            div {
+                margin: 20px;
+            }
+        }
+    }
+}
