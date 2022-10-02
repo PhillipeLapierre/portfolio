@@ -7,9 +7,18 @@
         padding: 80px 0;
     }
 
+    .title {
+        font-size: 48px;
+
+        margin: 20px 0;
+    }
     .role {
         background-image: url(/assets/images/color-square2.png);
+
+        margin-bottom: 70px;
     }
+
+    
 
     .apropos-gauche {
         display: flex;
@@ -21,8 +30,10 @@
 
         margin-right: 40px;
 
-        h2 {
+        .education h2 {
             font-size: 25px;
+
+            margin: 30px 0 10px;
         }
         .description {
             font-family: var(--font-secondary);
@@ -33,27 +44,71 @@
             font-size: 24px;
         }
 
-        h1 {
-            font-size: 32px;
+        .education {
+            width: 100%;
+
+            margin-top: 70px;
         }
+
         .grid1 p, .grid2 p {
             font-family: var(--font-tertiary);
+
+            width: calc(100% - 3px);
+
+            background-color: rgb(77, 77, 77);
+
+            margin: 0;
+            padding-left: 10px;
+            
+            height: 60px;
+            line-height: 60px;
+            
         }
     }
 
     .grid1 {
         display: grid;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 15% 85%;
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+
+        border: solid 3px white;
+        border-radius: 5px;
+
+        background-color: white;
+
+        h1 {
+            background-color: rgb(77, 77, 77);
+
+            font-size: 32px;
+
+            text-align: center;
+            height: 60px;
+            line-height: 60px;
+        }
     }
     .grid2 {
         display: grid;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 15% 85%;
         grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+
+        border: solid 3px white;
+        border-radius: 5px;
+
+        background-color: white;
+
+        h1 {
+            background-color: rgb(77, 77, 77);
+
+            font-size: 32px;
+
+            text-align: center;
+            height: 60px;
+            line-height: 60px;
+        }
     }
 
     .apropos-droite {
@@ -73,6 +128,10 @@
             
             div {
                 margin: 20px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
         }
     }
