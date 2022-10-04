@@ -9,28 +9,55 @@
         <script src="scripts/main.js" defer></script>
     </head>
     <body>
-        <header>
-            <div class="wrapper">
-                <a href="index.html">
-                    <h1>Phillipe Lapierre</h1>
-                </a>
+        <div data-component="Header">
+            <header>
+                <div class="wrapper">
+                    <a href="index.html"><h1>Phillipe Lapierre</h1></a>
 
-                <ul>
-                    <a href="index.html" class="nav-active">
-                        <img src="assets/images/nav-active.png" alt="" />
-                        <li>Accueil</li>
-                    </a>
+                    <ul>
+                        <a href="index.html" class="nav-active">
+                            <li><img src="assets/images/nav-active.png" alt="" />Accueil</li>
+                        </a>
 
-                    <a href="projets.html">
-                        <li>Projets</li>
-                    </a>
+                        <a href="projets.html">
+                            <li>Projets</li>
+                        </a>
 
-                    <a href="a-propos.html">
-                        <li>À Propos</li>
-                    </a>
-                </ul>
+                        <a href="a-propos.html">
+                            <li>À Propos</li>
+                        </a>
+                    </ul>
+
+                    <button class="menuMobile js-toggle">
+                        <img src="assets/images/MenuMobile.png" alt="">
+                    </button>
+                </div>
+            </header>
+
+            <div class="navMobile">
+                <div class="wrapper">
+                    <button class="closeMobile close-mobile">
+                        <img src="assets/images/CloseMenu.png" alt="" class="js-toggle close-mobile">
+                    </button>
+
+                    <a href="index.html"><h1>Phillipe Lapierre</h1></a>
+
+                    <ul>
+                        <a href="index.html" class="nav-active">
+                            <li class="objet-menu1"><img src="assets/images/nav-active.png" alt="" />Accueil</li>
+                        </a>
+
+                        <a href="projets.html">
+                            <li class="objet-menu2">Projets</li>
+                        </a>
+
+                        <a href="a-propos.html">
+                            <li class="objet-menu3">À Propos</li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-        </header>
+        </div>
 
         <section class="demo">
             <div class="wrapper">

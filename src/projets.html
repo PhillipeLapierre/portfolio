@@ -9,24 +9,28 @@
         <script src="scripts/main.js" defer></script>
     </head>
     <body>
-        <header>
+        <header class="headerFixed" data-component="Header">
             <div class="wrapper">
-                <h1>Phillipe Lapierre</h1>
-
+                <a href="index.html"><h1>Phillipe Lapierre</h1></a>
+                
                 <ul>
                     <a href="index.html">
                         <li>Accueil</li>
                     </a>
 
                     <a href="projets.html" class="nav-active">
-                        <img src="assets/images/nav-active.png" alt="" />
-                        <li>Projets</li>
+                        
+                        <li><img src="assets/images/nav-active.png" alt="" />Projets</li>
                     </a>
 
                     <a href="a-propos.html">
                         <li>À Propos</li>
                     </a>
                 </ul>
+
+                <button class="menuMobile close__mobile">
+                    <img src="assets/images/MenuMobile.png" alt="">
+                </button>
             </div>
         </header>
 

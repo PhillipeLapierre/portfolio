@@ -12,9 +12,9 @@ export default class Header {
   }
 
   init() {
-    if (this.element.dataset.autoHide == '') {
+    //if (this.element.dataset.autoHide == '') {
       window.addEventListener('scroll', this.onScroll.bind(this));
-    }
+    //}
   }
 
   onScroll(event) {
@@ -50,6 +50,10 @@ export default class Header {
     const toggle = this.element.querySelector('.js-toggle');
 
     toggle.addEventListener('click', this.onToggleNav.bind(this));
+
+    const nav_toggle = this.element.querySelector('.close-mobile');
+
+    nav_toggle.addEventListener('click', this.onToggleNav.bind(this));
   }
 
   onToggleNav(event) {
