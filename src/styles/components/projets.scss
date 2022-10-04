@@ -33,6 +33,81 @@
         width: 50%;
     }
 
+    .projet1 {
+        background: url('/assets/images/hero-projet1.jpg');
+
+        background-position: center;
+        background-size: cover;
+    }
+    .gros-projet1:hover {
+        .projet1 {
+            background: url('/assets/images/hero-projet1.gif');
+
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .projet2 {
+        background: url('/assets/images/hero-projet2.jpg');
+
+        background-position: center;
+        background-size: cover;
+    }
+    .gros-projet2:hover {
+        .projet2 {
+            background: url('/assets/images/hero-projet2.gif');
+
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .projet3 {
+        background: url('/assets/images/hero-projet3.jpg');
+
+        background-position: center;
+        background-size: cover;
+    }
+    .gros-projet3:hover {
+        .projet3 {
+            background: url('/assets/images/hero-projet3.gif');
+
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .projet4 {
+        background: url('/assets/images/hero-projet4.jpg');
+
+        background-position: center;
+        background-size: cover;
+    }
+    .gros-projet4:hover {
+        .projet4 {
+            background: url('/assets/images/hero-projet4.gif');
+
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .projet5 {
+        background: url('/assets/images/hero-projet5.jpg');
+
+        background-position: center;
+        background-size: cover;
+    }
+    .gros-projet5:hover {
+        .projet5 {
+            background: url('/assets/images/hero-projet5.gif');
+
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
     .projet-gauche,
     .projet-droite {
         display: flex;
@@ -44,6 +119,7 @@
         position: relative;
 
         width: 100%;
+        height: 400px;
     }
 
     .projet-gauche .logiciel,
@@ -80,6 +156,8 @@
         flex-direction: column;
 
         padding: 30px;
+
+        width: 50%;
 
         .bouton {
             background: radial-gradient(
