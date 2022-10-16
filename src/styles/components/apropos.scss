@@ -136,3 +136,56 @@
         }
     }
 }
+
+@media screen and (max-width: 1366px) { 
+    .apropos {
+        .grid1, .grid2 {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    .apropos {
+        .wrapper {
+            flex-direction: column;
+
+            padding: 120px 0 0 0;
+
+            .grid1, .grid2 {
+                p {
+                    font-size: 7px;
+    
+                    height: 30px;
+                    line-height: 30px;
+                }
+                h1 {
+                    font-size: 16px;
+    
+                    height: 30px;
+                    line-height: 35px;
+                }
+            }
+
+            .education {
+                margin-top: 0;
+                margin-bottom: 20px;
+            }
+        }
+        .apropos-gauche {
+            width: 100%;
+
+            margin: 10px;
+        }
+
+        .apropos-droite {
+            .outils {
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
