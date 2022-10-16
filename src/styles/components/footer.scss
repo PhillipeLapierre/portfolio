@@ -134,3 +134,52 @@ footer {
     -webkit-transform: scale(0);
     transform: scale(0);
 }
+
+
+@media screen and (max-width: 1540px) {
+    .footer-droite p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .top-footer {
+        flex-direction: column;
+
+        height: 275px;
+
+        .footer-gauche {
+            justify-content: center;
+
+            p {
+                display: none;
+            }
+            a {
+                width: 70%;
+
+                margin: 15px 0;
+            }
+        }
+        .separateur {
+            display: none;
+        }
+        .footer-droite {
+            width: 100%;
+
+            a {
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    footer {
+        h2 {
+            width: 100%;
+            text-align: center;
+
+            font-size: 15px;
+        }
+    }
+}
