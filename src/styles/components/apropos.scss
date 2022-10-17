@@ -137,6 +137,24 @@
     }
 }
 
+.presentation {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+
+        padding-bottom: 50px;
+    }
+
+    iframe {
+    width: 1000px;
+    height: 563px;
+
+    border: none;
+    }
+}
+
+
+
 @media screen and (max-width: 1366px) { 
     .apropos {
         .grid1, .grid2 {
@@ -186,6 +204,18 @@
                     font-size: 14px;
                 }
             }
+        }
+    }
+
+    .presentation {
+        .wrapper {
+    
+            padding-bottom: 50px;
+        }
+    
+        iframe {
+        width: 350px;
+        height: 181px;
         }
     }
 }
